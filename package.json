@@ -1,0 +1,17 @@
+{
+  "name": "swaglabs-tests",
+  "version": "1.0.0",
+  "description": "YEJSC AQA learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:fitstLoginTests": "npx playwright test tests/firstLoginTests.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.25"
+  }
+}

@@ -24,6 +24,6 @@ YEJSC AQA learning
 ## Run tests
 
 ```
- npm test
+ npm run test:fitstLoginTests
 
 ```
