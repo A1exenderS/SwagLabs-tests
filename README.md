@@ -13,6 +13,10 @@ YEJSC AQA learning
 
 ```
  npm install
+
+```
+
+```
  npm init playwright@latest
 
 ```
@@ -21,5 +25,5 @@ YEJSC AQA learning
 
 ```
  npm test
- 
+
 ```
