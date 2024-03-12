@@ -27,14 +27,10 @@ test.describe("two simple tests", () => {
     const shoppingCartLink = page.locator(".shopping_cart_link");
 
     await addToCartSLBButton.click();
-
     expect(await shoppingCartBadge.textContent()).toBe("1");
-
     await shoppingCartLink.click();
     expect(await cartItem).toBe("Sauce Labs Backpack");
-
     await page.click("#remove-sauce-labs-backpack");
-
     expect(await shoppingCartBadge.count()).toBe(0);
   });
 
