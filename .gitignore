@@ -1,9 +1,7 @@
 node_modules/
 /test-results/
 /tests-examples/
-/playwright/.cache/
 /.prettierrc/
-/test-results/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
