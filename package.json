@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "playwright test",
-    "test:fitstLoginTests": "npx playwright test tests/firstLoginTests.spec.js"
+    "test:fitstTests": "npx playwright test tests/firstTests.spec.js"
   },
   "keywords": [],
   "author": "",
